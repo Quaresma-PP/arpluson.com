@@ -1,0 +1,36 @@
+PROBREEZE — PÁGINA DE VENDAS PARA NOVA HOSPEDAGEM
+Origem: https://probreeze.portalpromo-noticias.com/
+
+PUBLICAÇÃO
+Envie index.html e todas as pastas juntas para a hospedagem.
+Imagens, fontes, CSS e JavaScript de interface estão incluídos no ZIP.
+
+REMOVIDO
+- Facebook/Meta: carregador fbevents.js, inicialização dos pixels
+  1062037106592781 e 1436042697898275 e os dois pixels de imagem noscript.
+- UTMify: https://cdn.utmify.com.br/scripts/utms/latest.js.
+- Dois destinos de pagamento Yampi: /r/P5XVZUYE8U e /r/6E5K45K0BR,
+  do domínio mercado-pago59.pay.yampi.com.br.
+Os dois links dos kits ficaram com href="#" e onclick="return false;".
+Para configurar o novo checkout, troque # pela URL correta de cada kit
+nos dois links e remova onclick="return false;".
+
+NÃO ENCONTRADO
+Google Analytics, Taboola e backredirect não foram identificados no
+HTML e arquivos JavaScript analisados. Isso não é uma auditoria das
+configurações internas do servidor.
+
+PRESERVADO
+Layout, textos, imagens, links de WhatsApp, rolagem até os kits, FAQ,
+jQuery, Bootstrap e js/redirect.js.
+O redirect.js encaminha os parâmetros da URL nos cliques dos elementos
+marcados com data-redirect="true". Não intercepta o botão Voltar.
+Ele continua podendo encaminhar UTMs, fbclid e gclid nos links de WhatsApp.
+Não foi removido porque está fora dos scripts expressamente solicitados.
+Os 5 blocos de script restantes e o arquivo redirect.js foram comparados
+com a origem e mantidos sem alteração.
+
+VALIDAÇÃO
+Todos os 23 recursos foram baixados sem falha.
+A página abriu localmente com 18 imagens carregadas e 2 links de
+pagamento desativados. ZIP verificado quanto à integridade.
