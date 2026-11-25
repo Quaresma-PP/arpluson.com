@@ -1,0 +1,47 @@
+VERÃO — ADVERTORIAL PARA NOVA HOSPEDAGEM
+Origem: https://verao.portalpromo-noticias.com/
+
+PUBLICAÇÃO
+Extraia o ZIP e envie index.html e todas as pastas para a hospedagem.
+Imagens, CSS, JavaScript de interface e fontes foram incluídos localmente.
+A página de vendas de destino não está incluída.
+
+REMOÇÕES
+Facebook/Meta: script fbevents.js e inicialização dos pixels
+1062037106592781 e 1436042697898275, além do pixel de imagem noscript.
+UTMify: scripts/utms/latest.js e carregador de scripts/pixel/pixel.js,
+com identificador 69630cae73abe8045cb599d2.
+Google Analytics e Taboola: não encontrados nos arquivos analisados.
+
+LINKS DE OFERTA
+27 links que chamavam redirectWithParams para
+https://probreeze.portalpromo-noticias.com/ foram desativados com
+onclick="return false;". Isso inclui links no texto, imagens, botões e
+os links do rodapé que também levavam ao mesmo endereço de vendas.
+Não havia URL de checkout direto identificada nesta página.
+Para instalar o novo destino, substitua href="#" pela URL desejada e
+remova onclick="return false;" de cada link de oferta correspondente.
+
+BACKREDIRECT PRESENTE E PRESERVADO
+O código setBack(window) manipula #no-back, history.pushState e hashchange.
+Ao acionar o histórico de retorno, ele direciona o visitante para
+https://probreeze.portalpromo-noticias.com/ levando os parâmetros da URL.
+Foi mantido intacto, assim como sua função auxiliar redirectWithParams,
+porque o pedido foi avisar sobre sua presença e não removê-lo.
+Portanto, embora os links de oferta estejam desativados, o redirecionamento
+pelo botão Voltar CONTINUA ATIVO nesta entrega.
+
+PRESERVADO
+Textos, imagens, layout, data dinâmica, temporizador de 15 minutos,
+comentários, curtidas, respostas, jQuery e Bootstrap.
+Os 8 blocos de script restantes foram comparados com a origem e mantidos
+sem alteração. Caminhos de fontes e CSS foram ajustados para uso local.
+
+PROBLEMA EXISTENTE, NÃO CORRIGIDO
+A imagem ./imagens/perfil/nulo.jpg usada ao adicionar comentários ou
+respostas retorna HTTP 404 na origem. Esse caminho foi preservado, sem
+substituir a imagem ou modificar a função sem aprovação.
+
+VALIDAÇÃO
+A página abriu localmente no navegador, com 20 imagens carregadas e
+27 links desativados. O ZIP passou na verificação de integridade.
